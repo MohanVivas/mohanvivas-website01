@@ -1,25 +1,171 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f5e8d3"><title>Happy Birthday, My Laddu</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
-<style>
-:root{--ink:#49383a;--rose:#a15f68;--muted:#806d69;--gold:#ad8262;--paper:#fffdfa;--line:#ddc2a4}*{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;padding:32px 18px;color:var(--ink);font-family:'DM Sans',sans-serif;background:radial-gradient(ellipse at 50% 7%,#fffdf8 0,#f5ead9 52%,#ead9c0 100%);overflow-x:hidden}body:before,body:after{content:'✿';position:fixed;color:#b5796b;opacity:.19;font-size:170px;pointer-events:none;font-family:serif}body:before{top:-75px;left:-50px;transform:rotate(-22deg)}body:after{right:-45px;bottom:-82px;transform:rotate(25deg)}.card{position:relative;isolation:isolate;width:min(100%,720px);padding:clamp(34px,7vw,64px) clamp(22px,7vw,70px) 34px;text-align:center;background:rgba(255,253,248,.83);border:1px solid white;box-shadow:0 22px 70px #56412a1c;animation:rise .8s ease both}.card:before{content:'';position:absolute;z-index:-1;inset:11px;border:1px solid #ead9c4;pointer-events:none}.kicker{color:var(--gold);font-size:10px;letter-spacing:.25em;text-transform:uppercase}.seal{margin:20px auto 15px;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;border:1px solid #dfc7ad;color:var(--rose);font:27px 'Cormorant Garamond',serif;background:#fffaf2;box-shadow:0 0 0 5px #f8efe4}.title{font:600 clamp(36px,7vw,56px)/.98 'Cormorant Garamond',serif;margin:0;color:#4e3b3d}.title em{font-weight:500;color:var(--rose)}.intro{max-width:440px;margin:15px auto 23px;color:var(--muted);font:italic 18px/1.45 'Cormorant Garamond',serif}.pair{display:flex;justify-content:center;align-items:center;gap:clamp(12px,4vw,25px);margin:22px auto 26px}.photo{margin:0;padding:7px 7px 11px;background:#fffefa;box-shadow:0 7px 20px #503c2c20;width:min(40%,190px);transform:rotate(-4deg);transition:transform .3s}.photo+ .photo{transform:rotate(4deg)}.photo:hover{transform:rotate(0) translateY(-3px)}.photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover}.photo figcaption{margin-top:7px;color:#765d5d;font:italic 15px 'Cormorant Garamond',serif}.timer-label{font-size:9px;letter-spacing:.23em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}.clock{display:flex;align-items:center;justify-content:center;gap:clamp(8px,2.4vw,20px);max-width:410px;margin:auto;padding:15px 8px;border-block:1px solid var(--line)}.unit{min-width:50px}.num{font:600 clamp(32px,6vw,45px)/1 'Cormorant Garamond',serif;color:#814c59;font-variant-numeric:tabular-nums}.unit small{display:block;margin-top:5px;font-size:8px;letter-spacing:.16em;text-transform:uppercase;color:#927e78}.sep{font:30px 'Cormorant Garamond',serif;color:#c0977d;align-self:flex-start}.note{font:italic 17px 'Cormorant Garamond',serif;color:#886e70;margin:22px 0 15px}.open{padding:11px 18px;border:1px solid #c9a98f;background:transparent;color:#765256;font:500 9px 'DM Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;cursor:pointer;transition:.2s}.open:hover{background:#855c63;color:white}.letter{display:none;max-width:440px;margin:18px auto 0;padding:17px 20px;background:#fbf3e8;border:1px solid #ead9c4;color:#705d5d;font:italic 17px/1.6 'Cormorant Garamond',serif}.letter.show{display:block;animation:rise .4s ease both}.footer{margin-top:24px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#9b8276}.spark{position:absolute;color:#ba8f6e;opacity:.5}.s1{top:20%;left:9%}.s2{right:9%;top:45%}.s3{bottom:16%;left:14%}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}} .music{max-width:410px;margin:20px auto 10px;padding:14px 14px 12px;border:1px solid #ead9c4;background:#fffaf2}.music-title{margin:0 0 10px;color:#806562;font:italic 16px 'Cormorant Garamond',serif}.music iframe{display:block;width:100%;height:152px;border:0;border-radius:8px}@media(max-width:480px){body{padding:20px 12px}.card{padding:38px 18px 28px}.card:before{inset:8px}.pair{gap:10px;margin:19px auto 22px}.photo{width:44%;padding:5px 5px 9px}.photo figcaption{font-size:13px}.unit{min-width:42px}.sep{font-size:23px}.intro{font-size:17px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5eddf">
+  <meta name="description" content="A sunflower scrapbook birthday surprise for Geetanjali, made with love.">
+  <title>Happy Birthday, Geetanjali</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display:ital@0;1&family=Sacramento&display=swap');
+    :root{--paper:#f4ecde;--paper-light:#fffaf0;--ink:#43251d;--wine:#8c2928;--rose:#a34f4a;--gold:#c39143;--green:#657348;--line:#dacbb4;--shadow:0 12px 32px #4d2b191b}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;min-height:100vh;overflow-x:hidden;color:var(--ink);font-family:'DM Sans',sans-serif;background-color:var(--paper);background-image:radial-gradient(ellipse at 10% 15%,#fff9ea 0,transparent 33%),radial-gradient(ellipse at 88% 78%,#eadfc9 0,transparent 35%),repeating-linear-gradient(0deg,#774e3007 0 1px,transparent 1px 4px);}
+    button{font:inherit}
+    .petal{position:fixed;z-index:-1;pointer-events:none;color:#9a312f;opacity:.72;font-size:26px;animation:sway 6s ease-in-out infinite}
+    .petal.one{top:8%;left:6%}.petal.two{top:22%;right:6%;font-size:19px;animation-delay:1s}.petal.three{bottom:12%;left:8%;font-size:18px;animation-delay:2s}.petal.four{bottom:21%;right:5%;font-size:25px;animation-delay:3s}
+    @keyframes sway{50%{transform:translateY(-8px) rotate(12deg)}}
+    .deck{min-height:100svh;display:grid;place-items:center;padding:26px 18px}
+    .screen{display:none;width:min(760px,100%);min-height:min(850px,calc(100svh - 52px));padding:34px 24px 28px;position:relative;align-content:center;justify-items:center;text-align:center;animation:enter .55s ease both}
+    .screen.active{display:grid}
+    @keyframes enter{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+    .eyebrow{margin:0 0 2px;color:var(--wine);font-size:10px;letter-spacing:.27em;text-transform:uppercase;font-weight:600}
+    .hero-title{display:grid;justify-items:center;line-height:.86;margin:0 0 9px;color:var(--ink)}
+    .hero-title .script{font:54px/1 'Sacramento','Brush Script MT',cursive;color:var(--wine);transform:rotate(-5deg);margin-bottom:-2px}
+    .hero-title strong{font:clamp(48px,10vw,75px)/.95 'DM Serif Display',Georgia,serif;letter-spacing:.045em;color:#4c2b20}
+    .name-line{font:italic 19px 'DM Serif Display',Georgia,serif;color:#754333;margin:0 0 10px}
+    .name-line .heart{color:var(--wine)}
+    .photo-frame{width:min(300px,54svh);aspect-ratio:736/1310;position:relative;margin:2px auto 8px;background:url('assets/sunflower-frame.jpg') center/100% 100% no-repeat;filter:drop-shadow(0 9px 10px #5c402329)}
+    .frame-photo{position:absolute;left:24.2%;top:24.7%;width:59%;height:50%;object-fit:cover;display:none}
+    .photo-frame.has-photo .frame-photo{display:block}
+    .photo-placeholder{position:absolute;left:24.2%;top:24.7%;width:59%;height:50%;display:grid;place-items:center;align-content:center;gap:8px;color:#54372b;background:#f5eddf;font:600 15px 'DM Serif Display',Georgia,serif;cursor:pointer}
+    .photo-placeholder span:first-child{font-size:24px}
+    .photo-frame.has-photo .photo-placeholder{display:none}
+    .upload{position:absolute;left:50%;transform:translateX(-50%);bottom:5px;z-index:2;border:1px solid #dbc9aa;border-radius:999px;background:#fffaf0ed;padding:8px 13px;color:#634638;font-size:11px;font-weight:600;white-space:nowrap;box-shadow:0 3px 9px #4d2b1914;cursor:pointer}
+    .upload:hover{background:#fff}
+    input[type=file]{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;clip-path:inset(50%)}
+    .intro{max-width:390px;margin:6px auto 14px;color:#6c5749;font:14px/1.65 'DM Sans',sans-serif}
+    .choice-row{display:flex;align-items:center;justify-content:center;gap:12px;min-height:44px}
+    .btn{border:1px solid #8b2f2c;border-radius:999px;background:var(--wine);color:#fffaf0;padding:11px 24px;font-size:12px;font-weight:600;letter-spacing:.03em;cursor:pointer;box-shadow:0 6px 15px #6b22222b;transition:transform .18s ease,background .18s ease,box-shadow .18s ease}
+    .btn:hover{transform:translateY(-2px);background:#70211f;box-shadow:0 9px 19px #6b222233}
+    .btn.secondary{background:#fffaf0d9;border-color:#cbb89a;color:#694337;box-shadow:0 4px 10px #4d2b1910;z-index:5;white-space:nowrap}
+    .btn.secondary.dodging{position:fixed;transition:left .17s ease,top .17s ease,transform .18s ease}
+    .choice-note{min-height:21px;margin:8px 0 0;color:#84564a;font:italic 15px 'Sacramento',cursive}
+    .page-heading{margin:0;color:var(--wine);font:42px/1.08 'Sacramento','Brush Script MT',cursive}
+    .page-subtitle{margin:4px 0 18px;color:#79604d;font:italic 14px 'DM Serif Display',Georgia,serif}
+    .nav{display:flex;align-items:center;justify-content:center;gap:13px;margin-top:18px}
+    .navbtn{display:grid;place-items:center;width:35px;height:35px;border:1px solid #cfbda2;border-radius:50%;background:#fffaf0;color:var(--wine);font-size:22px;line-height:1;cursor:pointer;box-shadow:0 3px 8px #4d2b1910}
+    .navbtn:hover{transform:translateY(-1px)}
+    .dots{display:flex;align-items:center;gap:9px}.dot{width:7px;height:7px;padding:0;border:0;border-radius:50%;background:#cdbfa9;cursor:pointer}.dot.on{background:var(--wine);transform:scale(1.2)}
+    .trait-row{display:flex;gap:12px;margin:2px 0 13px}
+    .trait{display:grid;place-items:center;width:39px;height:39px;border:1px solid #d9c7aa;border-radius:50%;background:#fff9ed;color:var(--wine);font-size:17px;cursor:pointer;transition:transform .18s,background .18s}
+    .trait.active{background:#8c2928;color:#fffaf0;box-shadow:0 0 0 3px #8c292822}
+    .trait-card{width:min(390px,90vw);padding:14px 18px;background:#fffaf0cf;border:1px solid #e3d5bd;box-shadow:0 7px 20px #54351a10;color:#5d372b;font:italic 19px 'DM Serif Display',Georgia,serif}
+    .trait-card p{margin:7px 0 0;color:#806753;font:12px/1.6 'DM Sans',sans-serif}
+    .bouquet{margin:6px auto 0;font-size:84px;line-height:1.1;filter:drop-shadow(0 7px 4px #72502a22);animation:float 4s ease-in-out infinite}
+    @keyframes float{50%{transform:translateY(-5px) rotate(2deg)}}
+    .bouquet-caption{margin-top:0;color:#846b4e;font:italic 14px 'Sacramento',cursive}
+    .letter-card{position:relative;width:min(570px,95%);padding:28px clamp(20px,5vw,44px);text-align:left;background-color:#fff9ec;background-image:repeating-linear-gradient(0deg,transparent 0 31px,#a5684212 31px 32px);border:1px solid #e7d8bd;box-shadow:0 8px 24px #53382018}
+    .letter-card:before,.letter-card:after{position:absolute;color:var(--wine);font-size:29px;line-height:1}
+    .letter-card:before{content:'♥';right:14px;top:11px;transform:rotate(14deg)}
+    .letter-card:after{content:'✦';left:12px;bottom:8px;color:#bd8b42;font-size:18px}
+    .letter-card p{position:relative;margin:0 0 12px;color:#4e3529;font:15px/1.65 'DM Serif Display',Georgia,serif}
+    .letter-card p:last-child{margin:3px 0 0;text-align:right;color:var(--wine);font-style:italic}
+    .letter-card .salutation{font-weight:600;color:#7a302b}
+    .collage{width:min(550px,95%);height:390px;position:relative;margin:4px auto 4px}
+    .memory{position:absolute;margin:0;overflow:hidden;background:linear-gradient(145deg,#dfd4c2,#ab9680 55%,#eee4d3);border:7px solid #fffaf0;box-shadow:0 7px 18px #40251824}
+    .memory img{display:none;width:100%;height:100%;object-fit:cover}
+    .memory img.ready{display:block}
+    .memory .empty{position:absolute;inset:0;display:grid;place-items:center;color:#fffaf0a8;font-size:25px}
+    .memory img.ready+.empty{display:none}
+    .memory.one{left:5%;top:8%;width:43%;height:48%;transform:rotate(-5deg)}
+    .memory.two{right:5%;top:3%;width:44%;height:56%;transform:rotate(4deg);z-index:2;border-width:9px}
+    .memory.three{left:8%;bottom:2%;width:43%;height:43%;transform:rotate(3deg)}
+    .memory.four{right:7%;bottom:1%;width:40%;height:39%;transform:rotate(-4deg)}
+    .memory.three img{object-position:center 25%}.memory.four img{object-position:center 55%}
+    .collage-caption{position:absolute;left:50%;top:56%;z-index:4;transform:translate(-50%,-50%) rotate(-3deg);width:min(280px,72%);padding:10px 15px;background:#f3e2b6;color:#55372b;box-shadow:0 4px 11px #54351a20;font:italic 19px 'Sacramento',cursive}
+    .tape{position:absolute;z-index:5;width:74px;height:23px;background:#d6ae678c;top:0;left:42%;transform:rotate(-7deg)}
+    .end-card{width:min(510px,93%);padding:23px 24px 25px;background:#fff8e9d9;border:1px solid #e5d5b9;box-shadow:var(--shadow);position:relative}
+    .sunflowers{font-size:53px;letter-spacing:8px;margin:0 0 4px;filter:drop-shadow(0 4px 3px #7c501d22)}
+    .end-title{margin:0;color:var(--wine);font:43px/1.1 'Sacramento',cursive}
+    .end-copy{max-width:380px;margin:9px auto 16px;color:#705745;font:14px/1.7 'DM Serif Display',Georgia,serif}
+    .replay{background:#fffaf0;color:var(--wine);box-shadow:none}
+    .confetti{position:fixed;top:-20px;z-index:9;pointer-events:none;animation:fall linear forwards}
+    @keyframes fall{to{transform:translateY(110vh) rotate(600deg);opacity:0}}
+    button:focus-visible,label.upload:focus-within{outline:3px solid #ad5f45;outline-offset:3px}
+    @media(max-width:520px){.deck{padding:12px}.screen{min-height:calc(100svh - 24px);padding:20px 10px}.hero-title .script{font-size:47px}.hero-title strong{font-size:clamp(44px,12vw,62px)}.photo-frame{width:min(270px,72vw)}.intro{font-size:13px;margin-top:3px}.page-heading{font-size:37px}.collage{height:min(350px,55vh)}.letter-card{padding:23px 19px}.letter-card p{font-size:14px}.nav{margin-top:13px}}
+    @media(max-height:720px){.screen{min-height:calc(100svh - 30px);padding-top:16px;padding-bottom:16px}.photo-frame{width:min(270px,50svh)}.collage{height:min(320px,44vh)}.bouquet{font-size:66px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+  </style>
 </head>
 <body>
-<main class="card"><span class="spark s1">✧</span><span class="spark s2">✦</span><span class="spark s3">✧</span>
-<div class="kicker">A day for my favourite person</div><div class="seal" aria-hidden="true">♡</div>
-<h1 class="title">Happy birthday,<br><em>beautiful soul</em></h1>
-<p class="intro">May laughter find you often, love surround you always, and every new day bring something wonderful.</p>
-<div class="pair" aria-label="Photo memories"><figure class="photo"><img src="images/laddu-soft-light.png" alt="Laddu on a leafy street"><figcaption>My favourite smile</figcaption></figure><figure class="photo"><img src="images/laddu-fairground.png" alt="Laddu at a colorful fair"><figcaption>One lovely memory</figcaption></figure></div>
-<div class="timer-label">Counting down to your special day</div><div class="clock" role="timer" aria-label="Birthday countdown"><div class="unit"><div class="num" id="days">00</div><small>Days</small></div><span class="sep">:</span><div class="unit"><div class="num" id="hours">00</div><small>Hours</small></div><span class="sep">:</span><div class="unit"><div class="num" id="minutes">00</div><small>Minutes</small></div><span class="sep">:</span><div class="unit"><div class="num" id="seconds">00</div><small>Seconds</small></div></div>
-<section class="music" aria-label="Birthday soundtrack"><p class="music-title">A song for your special day ♡</p><iframe title="Doron Doron on Spotify" src="https://open.spotify.com/embed/album/1wGfxu2U33P3c9fAmJbUe6?utm_source=generator" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin"></iframe></section>
-<p class="note" id="note">A little more time, then all the birthday magic ♡</p><button class="open" id="open" type="button" aria-expanded="false">Open your birthday wish</button>
-<div class="letter" id="letter" role="region" aria-label="Your birthday wish">Happy birthday to my favourite person, my Laddu. May this new year of your life bring you the kind of happiness that stays long after the candles are blown out, dreams that find their way to you, and little reasons to smile every single day. You make ordinary moments feel special just by being you. I hope today gives a little of that magic back to you—and reminds you how deeply loved, treasured, and celebrated you are. Here’s to your brightest year yet. ♡</div>
-<div class="footer">Made with love, just for you</div></main>
-<script>
-// Set this to the birthday moment in your local timezone (ISO 8601 with offset).
-const birthday=new Date('2026-10-31T00:00:00+05:30').getTime();const ids=['days','hours','minutes','seconds'];function tick(){let d=birthday-Date.now();if(d<=0){ids.forEach(id=>document.getElementById(id).textContent='00');document.getElementById('note').textContent='Today is your day. Let all the birthday magic begin ♡';return}const vals=[Math.floor(d/86400000),Math.floor(d/3600000)%24,Math.floor(d/60000)%60,Math.floor(d/1000)%60];ids.forEach((id,i)=>document.getElementById(id).textContent=String(vals[i]).padStart(2,'0'))}tick();setInterval(tick,1000);document.getElementById('open').addEventListener('click',e=>{const box=document.getElementById('letter'),show=!box.classList.contains('show');box.classList.toggle('show',show);e.currentTarget.setAttribute('aria-expanded',String(show));e.currentTarget.textContent=show?'Close your birthday wish':'Open your birthday wish'});
-</script></body></html>
+  <span class="petal one" aria-hidden="true">♥</span><span class="petal two" aria-hidden="true">✦</span><span class="petal three" aria-hidden="true">♡</span><span class="petal four" aria-hidden="true">✧</span>
+  <input id="photo-input" type="file" accept="image/*" aria-label="Choose a photo of Geetanjali">
+  <main class="deck">
+    <section class="screen active" data-screen="0" aria-label="Birthday welcome">
+      <p class="eyebrow">A little something made just for you</p>
+      <h1 class="hero-title"><span class="script">Happy</span><strong>BIRTHDAY</strong></h1>
+      <p class="name-line">Geetanjali, my love <span class="heart">♥</span></p>
+      <div class="photo-frame has-photo" id="photo-frame">
+        <img class="frame-photo" id="cover-photo" src="assets/geetanjali-cover.png" alt="Geetanjali smiling in a pink sari in front of a folk-art mural">
+        <label class="photo-placeholder" for="photo-input"><span>♡</span><span>Add a favorite photo</span></label>
+        <label class="upload" for="photo-input">Add Geetanjali’s photo +</label>
+      </div>
+      <p class="intro">Today is all about celebrating you and the happiness you bring into my life.</p>
+      <div class="choice-row"><button class="btn" id="yes-button">Open your surprise <span aria-hidden="true">♥</span></button><button class="btn secondary" id="no-button" type="button">No</button></div>
+      <p class="choice-note" id="choice-note" aria-live="polite"></p>
+    </section>
+
+    <section class="screen" data-screen="1" aria-label="A little tribute">
+      <p class="eyebrow">All the little things</p><h2 class="page-heading">The way you make life beautiful</h2><p class="page-subtitle">A few of my favorite things about you</p>
+      <div class="trait-row" role="group" aria-label="Choose a birthday compliment"><button class="trait active" data-trait="0" aria-label="Your warm heart" aria-pressed="true">♡</button><button class="trait" data-trait="1" aria-label="Your kindness" aria-pressed="false">✿</button><button class="trait" data-trait="2" aria-label="Your smile" aria-pressed="false">☺</button><button class="trait" data-trait="3" aria-label="Your magic" aria-pressed="false">✦</button></div>
+      <div class="trait-card"><span id="trait-title">Your warm heart</span><p id="trait-copy">Your kindness and gentle heart make every place feel a little more like home.</p></div>
+      <div class="bouquet" aria-hidden="true">🌻🌼🌻</div><div class="bouquet-caption">A little sunshine for my favorite person</div>
+      <div class="nav"><button class="navbtn" data-prev aria-label="Previous page">‹</button><div class="dots" aria-label="Birthday surprise pages"></div><button class="navbtn" data-next aria-label="Next page">›</button></div>
+    </section>
+
+    <section class="screen" data-screen="2" aria-label="Birthday letter for Geetanjali">
+      <p class="eyebrow">A note from my heart</p><h2 class="page-heading">A letter carrying all my love…</h2><p class="page-subtitle">For Geetanjali, on your special day</p>
+      <article class="letter-card">
+        <p class="salutation">My dearest Geetanjali <span class="heart">♥</span></p>
+        <p>Happy Birthday, my love! 🎂 Today is all about celebrating you, and I want you to know how grateful I am to have you in my life. You make my days brighter, my heart happier, and my world more beautiful in so many ways.</p>
+        <p>I hope the year ahead brings you endless happiness, good health, success, and everything you have been dreaming of. Whatever comes your way, I will always be cheering for you and believing in you.</p>
+        <p>Thank you for your love, your care, and for being such an important part of my life. I hope we make many more beautiful memories together. Enjoy your special day, smile lots, and remember how deeply you are loved.</p>
+        <p>With all my love and care, always <span class="heart">♥</span></p>
+      </article>
+      <div class="nav"><button class="navbtn" data-prev aria-label="Previous page">‹</button><div class="dots" aria-label="Birthday surprise pages"></div><button class="navbtn" data-next aria-label="Next page">›</button></div>
+    </section>
+
+    <section class="screen" data-screen="3" aria-label="A little scrapbook of memories">
+      <p class="eyebrow">Little moments, a lifetime of love</p><h2 class="page-heading">Our favorite kind of memories</h2><p class="page-subtitle">Every ordinary day is special with you</p>
+      <div class="collage" aria-label="Scrapbook photo collage">
+        <span class="tape" aria-hidden="true"></span>
+        <figure class="memory one"><img class="memory-photo ready" src="assets/geetanjali-sunflower.jpg" alt="A sunflower beach memory in black and white"><span class="empty">✿</span></figure>
+        <figure class="memory two"><img class="memory-photo ready" src="assets/geetanjali-selfie.jpg" alt="Geetanjali smiling in a favorite selfie"><span class="empty">♡</span></figure>
+        <figure class="memory three"><img class="memory-photo ready" src="assets/geetanjali-christmas.jpg" alt="Geetanjali celebrating Christmas among festive lights"><span class="empty">✦</span></figure>
+        <figure class="memory four"><img class="memory-photo ready" src="assets/geetanjali-ootd.jpg" alt="Geetanjali in a green outfit beneath pink flowers"><span class="empty">✿</span></figure>
+        <div class="collage-caption">My favorite moments are the ones with you ♡</div>
+      </div>
+      <label class="upload" for="photo-input">Choose or change photo +</label>
+      <div class="nav"><button class="navbtn" data-prev aria-label="Previous page">‹</button><div class="dots" aria-label="Birthday surprise pages"></div><button class="navbtn" data-next aria-label="Next page">›</button></div>
+    </section>
+
+    <section class="screen" data-screen="4" aria-label="Birthday wishes">
+      <div class="end-card"><p class="sunflowers" aria-hidden="true">🌻 🌼 🌻</p><p class="eyebrow">To my sunshine</p><h2 class="end-title">You are so loved</h2><p class="end-copy">Happy Birthday, Geetanjali. May this next trip around the sun bring you all the joy, tenderness, and beautiful surprises your heart deserves. I love you so much. ♥</p><button class="btn replay" id="replay">↻ Read it again</button></div>
+      <div class="nav"><button class="navbtn" data-prev aria-label="Previous page">‹</button><div class="dots" aria-label="Birthday surprise pages"></div><button class="navbtn" data-next aria-label="Start again">›</button></div>
+    </section>
+  </main>
+  <script>
+    const screens=[...document.querySelectorAll('.screen')];
+    const photoInput=document.querySelector('#photo-input');
+    let current=0,photoUrl='';
+    function buildDots(){document.querySelectorAll('.dots').forEach(group=>{group.innerHTML=screens.map((_,i)=>`<button class="dot${i===current?' on':''}" data-go="${i}" aria-label="Go to page ${i+1}"${i===current?' aria-current="step"':''}></button>`).join('')})}
+    function show(index){current=(index+screens.length)%screens.length;screens.forEach((screen,i)=>screen.classList.toggle('active',i===current));buildDots();if(current===4)celebrate()}
+    document.querySelector('#yes-button').addEventListener('click',()=>show(1));
+    document.querySelectorAll('[data-prev]').forEach(button=>button.addEventListener('click',()=>show(current-1)));
+    document.querySelectorAll('[data-next]').forEach(button=>button.addEventListener('click',()=>show(current+1)));
+    document.querySelector('#replay').addEventListener('click',()=>show(0));
+    document.addEventListener('click',event=>{const dot=event.target.closest('[data-go]');if(dot)show(Number(dot.dataset.go))});
+    const compliments=[['Your warm heart','Your kindness and gentle heart make every place feel a little more like home.'],['Your kindness','You always know how to make the people you love feel cared for.'],['Your smile','Your smile can turn an ordinary moment into my favorite memory.'],['Your magic','You make life brighter simply by being exactly who you are.']];
+    document.querySelectorAll('.trait').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('.trait').forEach(item=>{item.classList.remove('active');item.setAttribute('aria-pressed','false')});button.classList.add('active');button.setAttribute('aria-pressed','true');const copy=compliments[Number(button.dataset.trait)];document.querySelector('#trait-title').textContent=copy[0];document.querySelector('#trait-copy').textContent=copy[1]}));
+    photoInput.addEventListener('change',()=>{const file=photoInput.files&&photoInput.files[0];if(!file)return;if(photoUrl)URL.revokeObjectURL(photoUrl);photoUrl=URL.createObjectURL(file);const cover=document.querySelector('#cover-photo');cover.src=photoUrl;document.querySelector('#photo-frame').classList.add('has-photo');document.querySelectorAll('.memory-photo').forEach(image=>{image.src=photoUrl;image.classList.add('ready')})});
+    const noButton=document.querySelector('#no-button');
+    function dodgeNo(){const pad=16,rect=noButton.getBoundingClientRect(),maxX=Math.max(pad,innerWidth-rect.width-pad),maxY=Math.max(pad,innerHeight-rect.height-pad);let x=pad+Math.random()*(maxX-pad),y=pad+Math.random()*(maxY-pad);noButton.classList.add('dodging');noButton.style.left=x+'px';noButton.style.top=y+'px';noButton.blur();document.querySelector('#choice-note').textContent='That little “No” is feeling shy! ♥'}
+    noButton.addEventListener('pointerenter',dodgeNo);noButton.addEventListener('pointerdown',event=>{event.preventDefault();dodgeNo()});noButton.addEventListener('focus',dodgeNo);noButton.addEventListener('click',event=>{event.preventDefault();dodgeNo()});
+    function celebrate(){const colors=['#8c2928','#d5a341','#647648','#c87955'];for(let i=0;i<30;i++){const piece=document.createElement('span');piece.className='confetti';piece.textContent=['✦','♥','•'][Math.floor(Math.random()*3)];piece.style.left=Math.random()*100+'vw';piece.style.color=colors[Math.floor(Math.random()*colors.length)];piece.style.fontSize=8+Math.random()*15+'px';piece.style.animationDuration=2+Math.random()*2+'s';document.body.appendChild(piece);setTimeout(()=>piece.remove(),4200)}}
+    document.addEventListener('keydown',event=>{if(event.key==='ArrowRight')show(current+1);if(event.key==='ArrowLeft')show(current-1)});
+    buildDots();
+  </script>
+</body>
+</html>
